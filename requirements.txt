@@ -1,4 +1,5 @@
 gdown
 ultralytics==8.0.196
 roboflow
-PyDrive
+pydrive2 
+google-auth
