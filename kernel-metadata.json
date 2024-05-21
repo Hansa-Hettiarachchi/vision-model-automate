@@ -1,6 +1,7 @@
 {
-    "id": "hansahettiarachchi/YOLOv8_Training_3",
+    "id": "hansahettiarachchi/YOLOv8_Training",
     "code_file": "YOLOv8_Training.ipynb",
+    "title": "YOLOv8_Training_3",
     "language": "python",
     "kernel_type": "notebook",
     "is_private": true,
