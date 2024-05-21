@@ -9,7 +9,7 @@ import os
 model = YOLO("yolov8m.pt")
 
 # Train the model
-model.train(data="/kaggle/working/vision-model-automate/socket_detection-4/data.yaml", epochs=100, imgsz=800, plots=True)
+results = model.train(data="/kaggle/working/vision-model-automate/socket_detection-4/data.yaml", epochs=100, imgsz=800)
 
 # Save the trained model to Google Drive
 model_save_path = "/kaggle/working/runs/train/weights"
